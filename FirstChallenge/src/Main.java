@@ -7,6 +7,8 @@ public class Main {
         double thirdNumber = ((firstNumber + secondNumber) * 100.00d)  % 40.00d;
         boolean remainderIsZero = (thirdNumber == 0) ? true : false;
 
+        System.out.println(remainderIsZero);
+
         if(!remainderIsZero){
             System.out.println("Got some remainder.");
         }else{
